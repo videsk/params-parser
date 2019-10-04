@@ -1,0 +1,36 @@
+{
+  "name": "@videsk/params-parser",
+  "version": "1.0.0",
+  "description": "Generate URL through params",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/videsk/params-parser.git"
+  },
+  "keywords": [
+    "videsk",
+    "params",
+    "url",
+    "parser"
+  ],
+  "author": "Videsk",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/videsk/params-parser/issues"
+  },
+  "homepage": "https://github.com/videsk/params-parser#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
