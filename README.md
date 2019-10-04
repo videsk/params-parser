@@ -1,4 +1,4 @@
-# params Parser
+# Params Parser
 
 This library allow to generate a url with params added by object, array or by units.
 
