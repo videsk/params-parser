@@ -1,2 +1,2 @@
-const paramsToURL = require('src/index');
-export default paramsToURL;
+import ParamsParser from './src/index.js';
+module.exports = ParamsParser;

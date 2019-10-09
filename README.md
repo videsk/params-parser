@@ -7,7 +7,7 @@ This library allow to generate a url with params added by object, array or by un
 For start only need initialize class.
 
 ```js
-const paramParse = new paramsToURL();
+const paramParse = new ParamsParse();
 ```
 
 ## Add params by one

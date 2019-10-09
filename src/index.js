@@ -3,7 +3,7 @@
 ** Designed for Videsk™
  */
 
-class paramsToURL {
+class ParamsParser {
 
   constructor() {
     this.parameters = '?';
@@ -27,7 +27,10 @@ class paramsToURL {
 
   byObj(obj) {
     // Add various key and values through object
-    Object.keys(obj).map(key => this.add(key, obj[key]));
+    Object.keys(obj).map(key =>
+        (Array.isArray(obj[key]))
+            ? this.byArray(key, obj[key])
+            : this.add(key, obj[key]));
   }
 
   byArray(key, array) {
@@ -50,4 +53,4 @@ class paramsToURL {
   }
 };
 
-module.exports = paramsToURL;
+module.exports = ParamsParser;

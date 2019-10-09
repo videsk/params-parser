@@ -6,7 +6,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'params-parser.min.js',
-        library: 'params-parser',
+        library: 'ParamsParser',
         libraryTarget: 'umd'
     },
     module: {
