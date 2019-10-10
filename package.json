@@ -1,6 +1,6 @@
 {
   "name": "@videsk/params-parser",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "Generate URL through params",
   "main": "./src/index.js",
   "scripts": {
