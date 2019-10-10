@@ -3,7 +3,7 @@
 ** Designed for Videsk™
  */
 
-class ParamsParser {
+module.exports = class ParamsParser {
 
   constructor() {
     this.parameters = '?';
@@ -52,5 +52,3 @@ class ParamsParser {
     return temp;
   }
 };
-
-module.exports = { ParamsParser };
