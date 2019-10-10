@@ -53,4 +53,4 @@ class ParamsParser {
   }
 };
 
-module.exports = ParamsParser;
+module.exports = { ParamsParser };

@@ -1,2 +1,2 @@
-import ParamsParser from './src/index.js';
+const { ParamsParser } = require('./src/index');
 module.exports = ParamsParser;
