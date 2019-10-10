@@ -4,7 +4,7 @@
  */
 
 module.exports = class ParamsParser {
-
+  
   constructor() {
     this.parameters = '?';
     this.arrayParams = [];
